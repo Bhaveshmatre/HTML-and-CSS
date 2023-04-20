@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>How To Make Fomrs In HTML?</h1>
+        <!-- <form action="backend.php"> -->
+            <!-- The above line says that, "Whatever data is filled by the user is submmited by backend.php it means its a backend site which saves the data given by the user and if we put 'action' means we have to choose the path. E.g. is given" -->
+        <form>
+            <!-- there are so many types of input  -->
+
+            <!-- there are two methods of making form eka khali ek
+            First is use of br tag 
+            Second is use of div tag -->
+
+            <!-- <label for="Name:">Name:</label> -->
+                <div>
+                Name: <input type="text" name="myname" id="Name">
+                </div><br>
+<!-- use css for decoration -->
+
+
+ <!-- select text/code alt + arrow (which do you want move any direction) -->
+                <div>
+                    Role: <input type="text" name="myrole">
+                </div><br>
+
+                <div>
+                    Company: <input type="text" name="mycompany">
+                </div><br>
+                
+                <div>
+                    Email: <input type="email" name="myemail">
+                </div><br>
+
+                
+                <div>
+                    Date: <input type="date" name="mydate">
+                </div><br>
+                
+                <div>
+                    <p>(In bonus section you can Type e also "10e2" 10 to the power 2)</p>
+                    Bonus: <input type="number" name="mybonus">
+                </div><br>
+                
+                <!-- <label for="Are You Eligible:">Are You Eligible:</label> -->
+                <div>
+                    Are You Eligible:<input type="checkbox" name="myeligibility" id="eligibility" checked>
+                </div><br>
+                
+                <div>
+                    Gender: Male <input type="radio" name="mygender">Female<input type="radio" name="mygender">Other<input type="radio" name="mygender">Neither To Say<input type="radio" name="mygender">
+                </div><br>
+
+                <div>
+                    Write about yourself:<br><textarea name="text" name="mytext" cols="50" rows="5"></textarea>
+                </div><br>
+
+                <div>
+                    <input type="submit" value="Submit Now">
+                    <input type="reset" value="Reset Now">
+                </div><br>
+                
+            </form>
+        </body>
+        </html>
